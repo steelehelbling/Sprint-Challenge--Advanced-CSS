@@ -190,6 +190,7 @@ p {
 }
 header img {
   width: 100%;
+  border-radius: 5px;
 }
 footer {
   color: #22283B;
@@ -235,6 +236,11 @@ footer {
 }
 .home .visit-planets {
   padding: 15px;
+}
+@media (max-width: 500px) {
+  .home .visit-planets {
+    padding-bottom: 0;
+  }
 }
 .home .visit-planets h3 {
   margin-top: 11px;
@@ -296,6 +302,7 @@ footer {
   .home .walk .walk-img {
     width: 100%;
     margin: 0;
+    padding-bottom: 15px;
   }
 }
 .home .walk .walk-img img {
