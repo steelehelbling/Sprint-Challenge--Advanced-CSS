@@ -1,1 +1,29 @@
 // Mixins Here
+.flex(@justify, @align,){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+    
+    
+    }
+
+
+.button(@backColor, @textColor)
+{
+background-color:@backColor;
+color:@textColor;
+padding: 12px 24px 12px 24px;
+border-radius: 5px;
+font-size: 1.9rem;
+width: 120px;
+border: white solid 1px;
+@media @phone{width: 100%;
+text-align: center;
+padding: 22px 24px 22px 24px;}
+
+}
+
+.direct(@column){
+    display: flex;
+    flex-direction: @column;
+}
